@@ -1,0 +1,45 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.herotext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.headertext {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+a, .herosubtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .actionbox {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer {
+    color: #F9FAF8;
+}
+
+.quote { 
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
