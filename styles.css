@@ -55,10 +55,36 @@ button, .actionbox {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 150px;
+    padding: 10px 200px;
 }
 
 .links {
     display: flex;
     gap: 24px;
+}
+
+.placeholder {
+    background-color: #E5E7EB;
+    width: 500px;
+    height: 250px;
+}
+
+.hero {
+    display: flex;
+    padding: 0px 200px 100px;
+    justify-content: space-between;
+}
+
+.herocontent {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+}
+
+button {
+    width: 15%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 900;
 }
