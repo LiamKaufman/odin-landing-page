@@ -55,6 +55,7 @@ button, .actionbox {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 200px;
 }
 
@@ -82,9 +83,48 @@ button, .actionbox {
 }
 
 button {
-    width: 15%;
-    padding: 5px 10px;
-    border-radius: 10px;
+    margin-top: 20px;;
+    width: 20%;
+    padding: 10px 15px;
+    border-radius: 8px;
     border: 0;
     font-weight: 900;
+}
+
+.infoheader {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 0 30%;
+}
+
+.infocard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.infoimage {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color:#3882F6;
+    padding: 50px;
+    width: 20px;
+    height: 10px;
+}
+
+.infotext {
+    text-align: center;
+    font-size: 13px;
+    width: 50%;
 }
