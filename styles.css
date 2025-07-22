@@ -22,6 +22,12 @@ a {
 
 .quote { 
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 550px;
+    gap: 10px;
 }
 
 .herotext {
@@ -50,6 +56,13 @@ button, .actionbox {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+
+.quotename {
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .header {
@@ -125,6 +138,6 @@ button {
 
 .infotext {
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
     width: 50%;
 }
