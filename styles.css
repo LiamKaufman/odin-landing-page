@@ -42,7 +42,7 @@ a {
     font-weight: 900;
 }
 
-a, .herosubtext {
+a, .herosubtext, .calltext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -140,4 +140,42 @@ button {
     text-align: center;
     font-size: 16px;
     width: 50%;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.actionbox {
+    padding: 40px 75px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.actioncontainer {
+    width: 850px;
+}
+
+.call {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.signup {
+    padding: 8px 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    font-size: 18px;
 }
