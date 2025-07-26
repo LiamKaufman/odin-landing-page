@@ -16,18 +16,16 @@ a {
     background-color: #1F2937;
 }
 
-.footer {
-    color: #F9FAF8;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
 }
 
-.quote { 
-    background-color: #E5E7EB;
+.links {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 550px;
-    gap: 10px;
+    gap: 24px;
 }
 
 .herotext {
@@ -52,37 +50,6 @@ button, .actionbox {
     color: #F9FAF8;
 }
 
-.quotetext {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-}
-
-.quotename {
-    align-self: flex-end;
-    font-size: 24px;
-    color: #1F2937;
-    font-weight: 900;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 200px;
-}
-
-.links {
-    display: flex;
-    gap: 24px;
-}
-
-.placeholder {
-    background-color: #E5E7EB;
-    width: 500px;
-    height: 250px;
-}
-
 .hero {
     display: flex;
     padding: 0px 200px 100px;
@@ -96,12 +63,21 @@ button, .actionbox {
 }
 
 button {
-    margin-top: 20px;;
-    width: 20%;
-    padding: 10px 15px;
     border-radius: 8px;
     border: 0;
     font-weight: 900;
+}
+
+.herobutton {
+    margin-top: 20px;
+    width: 20%;
+    padding: 10px 15px;
+}
+
+.placeholder {
+    background-color: #E5E7EB;
+    width: 500px;
+    height: 250px;
 }
 
 .infoheader {
@@ -142,6 +118,29 @@ button {
     width: 50%;
 }
 
+.quote { 
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 550px;
+    gap: 10px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quotename {
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .action {
     display: flex;
     justify-content: center;
@@ -149,23 +148,23 @@ button {
 }
 
 .actionbox {
-    padding: 40px 75px;
+    padding: 50px 125px;
     border-radius: 10px;
     display: flex;
     align-items: center;
 }
 
 .actioncontainer {
-    width: 850px;
+    width: 700px;
 }
 
 .call {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
 }
 
-.signup {
-    padding: 8px 0px;
+.signupbutton {
+    padding: 10px 32px;
     border-style: solid;
     border-color: white;
     border-width: 2px;
@@ -173,6 +172,7 @@ button {
 }
 
 .footer {
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
